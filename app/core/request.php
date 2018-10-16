@@ -64,7 +64,7 @@ function is_post()
 
 function get_user_agent()
 {
-    return get_server_variable('HTTP_USER_AGENT') ?: 'Unknown';
+    return get_server_variable('HTTP_USER_AGENT') ?: 'googlebot';
 }
 
 function get_ip_address()
